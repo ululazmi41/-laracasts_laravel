@@ -13,8 +13,14 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            fontFamily: {
+                "hanken-grotesk": ["Hanken Grotesk", "sans-serif"]
+            },
             colors: {
                 "black": "#060606"
+            },
+            fontSize: {
+                "2xs": ".625rem" // 10 px
             }
         },
     },
