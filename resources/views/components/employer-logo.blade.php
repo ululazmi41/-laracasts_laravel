@@ -1,3 +1,3 @@
 @props(['employer', 'width' => 90])
 
-<img src="{{ asset($employer->logo) }}/{{ $width }}}}" alt="placehold.it" class="rounded-xl" width="{{ $width }}">
+<img src="https://picsum.photos/seed/{{ $employer->id }}/{{ $width }}" alt="employer.jpg" class="rounded-xl" width="{{ $width }}">
